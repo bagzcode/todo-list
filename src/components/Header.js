@@ -3,7 +3,7 @@ import Button, { FilterButton } from "./Button";
 import AddTask from "./AddTask";
 
 function Header(){
-    const [modalOpen, setModalOpen] = useState(false);
+    const [modalOpen, setModalOpen] = useState(true);
     return(
         <div className = "addfilter">
             <Button onClick={() => setModalOpen(true)}>
